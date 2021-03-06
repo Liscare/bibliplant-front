@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {ProductService} from "../service/product.service";
 import {Subscription} from "rxjs";
-import {Field} from "../field";
-import {FieldStyle} from "../field-style";
-import {Line} from "../line";
+import {Field} from "../model/field";
+import {FieldStyle} from "../model/field-style";
+import {Line} from "../model/line";
 
 /**
  * Component displaying all products

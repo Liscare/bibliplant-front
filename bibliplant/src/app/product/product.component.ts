@@ -1,6 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {ProductService} from "../service/product.service";
-import {Line} from "../line";
+import {Line} from "../model/line";
 
 /**
  * Component to display a product
