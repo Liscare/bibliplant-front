@@ -1,3 +1,4 @@
 <div *ngFor="let field of product.fields">
-  {{ field.data }}
+  <div *ngIf="field.style != null" [ngStyle]="field.style.style">{{ field.style.displayName }} : </div>
+    {{field.data}}
 </div>

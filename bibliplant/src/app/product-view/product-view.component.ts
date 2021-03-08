@@ -52,6 +52,7 @@ export class ProductViewComponent implements OnInit {
 
   private generateFieldStyle() {
     this.productsStyle.forEach(value => this.addFieldStyle(value))
+    console.log(this.productsStyle)
   }
 
   /**
@@ -103,6 +104,8 @@ export class ProductViewComponent implements OnInit {
     field.id = 0
     if (this.fieldStyles.has(key)) {
       field.style = this.fieldStyles.get(key)
+    } else {
+      field.style = null
     }
     return field
   }

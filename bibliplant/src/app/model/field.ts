@@ -9,5 +9,5 @@ import {FieldStyle} from "./field-style";
 export class Field {
   public id: number = 0
   public data: any = ""
-  public style: FieldStyle | undefined
+  public style: FieldStyle | undefined | null
 }
